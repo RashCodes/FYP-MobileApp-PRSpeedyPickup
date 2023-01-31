@@ -7,7 +7,7 @@ ____
 
 DECLARATION
 
-I declare that this ( Mobile-Application ) is my original work and that all references have been cited adequately as required by the faculty.
+I declare that ( Mobile-Application ) is my original work and that all references have been cited adequately as required by the faculty.
 
 ______________________________
 
