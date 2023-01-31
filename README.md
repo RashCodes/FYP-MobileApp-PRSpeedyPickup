@@ -25,3 +25,10 @@ Project Objectives:
 I.	To design a user-friendly “PR-Speedy Pickup” application that can change from the manual process of “purchase representative” and "warehousemen" to an automated system.
 II.	To develop a "PR-Speedy Pickup" application that includes features such as attaching new items, ordering items to be prepared, and sending info via a description box.
 III.	To develop a "PR-Speedy Pickup" application that includes a feature such as calculating the prices of the requested items.
+
+_________________________
+
+FYP - ( Poster )
+
+[Rashad-Poster.zip](https://github.com/RashCodes/-MobileAPP-PR-Speedy-Pickup-FYP-/files/10549215/Rashad-Poster.zip)
+
