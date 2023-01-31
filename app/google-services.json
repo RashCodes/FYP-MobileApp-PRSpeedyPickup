@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1080442866075",
+    "firebase_url": "https://pr-speedypickup-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pr-speedypickup",
+    "storage_bucket": "pr-speedypickup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080442866075:android:27fa428d19b7b06703b93e",
+        "android_client_info": {
+          "package_name": "com.example.prspeedypickup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080442866075-l3cp7g728me0kjl38sttbrfd92sivkkk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prspeedypickup",
+            "certificate_hash": "b194c40e164c2a4b891af83879601aca8eee9106"
+          }
+        },
+        {
+          "client_id": "1080442866075-r7p00ol8ktnugc3p50l7qvqimp7r58k0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prspeedypickup",
+            "certificate_hash": "559e8331f021bd7d407805865c53198c864fdbf3"
+          }
+        },
+        {
+          "client_id": "1080442866075-vthq0ub7vvh1pfvl5r1nfcni8net5o8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5WCHY1ny7UqMjkItMemmdS5S98st_SWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080442866075-vthq0ub7vvh1pfvl5r1nfcni8net5o8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

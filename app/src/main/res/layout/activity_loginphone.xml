@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrnd2"
+    tools:context=".PickerLoginphone">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="280dp"
+        android:layout_height="400dp"
+        android:background="@drawable/btnrash"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/background_shape"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/verify_phone_number"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/cairo"
+            android:textColor="@color/defaultColor"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btnlightgray"
+            android:orientation="horizontal">
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/plpCountrycode"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                app:ccp_textSize="15dp"/>
+
+                <EditText
+                    android:id="@+id/Mobilenumber1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/mobile_number"
+                    android:inputType="number"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/plpSendotp"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp"
+            android:drawablePadding="-20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btnrash"
+            android:text="@string/send_otp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/defaultColor"
+            android:fontFamily="@font/cairo"
+            android:drawableStart="@drawable/send_black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/plpsignup"
+            android:layout_marginTop="13dp"
+            android:text="@string/don_t_have_an_account_signup"
+            android:textColor="@color/defaultColor"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/cairo"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TableRow
+                android:id="@+id/rash1"
+                android:layout_width="60dp"
+                android:layout_height="3dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btnrash" />
+
+            <TextView
+                android:id="@+id/or"
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="@string/OR"
+                android:textAlignment="center"
+                android:textColor="@color/defaultColor"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:id="@+id/rash2"
+                android:layout_width="60dp"
+                android:layout_height="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btnrash" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/plptextView"
+            android:layout_marginTop="0dp"
+            android:text="@string/Signin_with"
+            android:textAlignment="center"
+            android:textColor="@color/defaultColor"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/cairo"/>
+        <Button
+            android:id="@+id/plpemail"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btnrash"
+            android:drawableStart="@drawable/blackemail"
+            android:drawablePadding="-20dp"
+            android:fontFamily="@font/cairo"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/email"
+            android:textColor="@color/defaultColor"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

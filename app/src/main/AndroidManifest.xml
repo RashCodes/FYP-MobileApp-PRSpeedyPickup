@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.prspeedypickup">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PRSpeedyPickup"
+        tools:targetApi="31">
+        <activity
+            android:name=".mainClass.displayad"
+            android:exported="true" />
+        <activity
+            android:name=".allUserData.deliveredOrderamount"
+            android:exported="true" />
+        <activity
+            android:name=".mainClass.allPayableBill"
+            android:exported="true" />
+        <activity
+            android:name=".mainClass.nav"
+            android:exported="true" />
+        <activity
+            android:name=".mainClass.Displaycategorydata"
+            android:exported="true" />
+        <activity
+            android:name=".mainClass.post"
+            android:exported="true" />
+
+        <activity
+            android:name=".Pickersendotp"
+            android:exported="false" />
+        <activity
+            android:name=".PickerVerifyPhone"
+            android:exported="false" />
+        <activity
+            android:name=".PickerRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".PickerLoginphone"
+            android:exported="false" />
+        <activity
+            android:name=".PickerLogin"
+            android:exported="true" />
+
+        <activity
+            android:name=".ChooseOne"
+            android:exported="false" />
+        <activity
+            android:name=".MainMenu"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

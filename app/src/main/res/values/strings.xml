@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">PR SpeedyPickup</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="todo">TODO</string>
+    <string name="rashcodes">©RashCodes</string>
+    <string name="todo2">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="sign_in_via">Sign In via</string>
+    <string name="sign_in_via2">Sign In via</string>
+    <string name="or">OR</string>
+    <string name="signup">Signup</string>
+    <string name="todo4">TODO</string>
+    <string name="connect_as_picker">Sign up</string>
+    <string name="firstname">FirstName</string>
+    <string name="lastname">LastName</string>
+    <string name="password">Password</string>
+    <string name="email_id">Email ID</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="signin_with">SignIn with</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="todo5">TODO5</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_create">Don\'t have an account? Create</string>
+    <string name="OR">OR</string>
+    <string name="signin_With">SignIn With</string>
+    <string name="SignIn_With" />
+    <string name="Phone" />
+    <string name="verify_phone_number">Verify Phone Number</string>
+    <string name="otp">OTP</string>
+    <string name="don_t_have_an_account_signup">Don\'t Have an account? SignUp</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="Signin_with">SignIn with</string>
+    <string name="enter_otp">ENTER OTP</string>
+    <string name="verify">VERIFY</string>
+    <string name="Otp">OTP</string>
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="resend_code_within_57s">Resend Code Within 57s</string>
+    <string name="tools_name">Tools Name</string>
+    <string name="description">Description</string>
+    <string name="quantity">Quantity</string>
+    <string name="price">Price</string>
+    <string name="post">Post</string>
+    <string name="todo75">TODO</string>
+    <string name="post_tool">Post Tool</string>
+
+
+
+    <string-array name="ToolName">
+        <item>Axe</item>
+        <item>Roller</item>
+        <item>Hoe</item>
+        <item>Spade</item>
+        <item>Hook</item>
+        <item>Shovel</item>
+        <item>Compactor</item>
+        <item>Drill</item>
+        <item>Hammer Drill</item>
+        <item>Nail Gun</item>
+        <item>Drill Bit</item>
+        <item>Hammer Bit</item>
+        <item>Bolt</item>
+        <item>Stud Bolt</item>
+        <item>Nut</item>
+        <item>Fisher Plug</item>
+        <item>Screw</item>
+        <item>Nail</item>
+        <item>Ladder</item>
+        <item>Measuring Tape</item>
+        <item>Spirit Level</item>
+        <item>Paint Compressor</item>
+        <item>Putty knife</item>
+        <item>Paint Mixer</item>
+        <item>laser Measure</item>
+        <item>Wheel Barrow</item>
+        <item>Bucket Trowel</item>
+        <item>Carding Trowel</item>
+        <item>Wooden Float</item>
+        <item>Brick Trowel</item>
+        <item>Cutting Grinder</item>
+        <item>Polishing Grinder</item>
+        <item>Electrical Saw</item>
+        <item>Circular Saw</item>
+        <item>Floor Saw</item>
+        <item>Saw Blade</item>
+        <item>Grinder Blade</item>
+        <item>Clamp</item>
+        <item>Crow Bar</item>
+        <item>Binding Wire</item>
+        <item>End Nips</item>
+        <item>Steel Bar Cutter</item>
+        <item>Stirrups Bender</item>
+        <item>Allen Key</item>
+        <item>Anchor Bolt</item>
+    </string-array>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="sign_in">Sign In</string>
+    <string name="upload">Upload</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="payable_bills">Payable Bills</string>
+    <string name="orders">Orders</string>
+    <string name="cart">Cart</string>
+    <string name="price_sar">Price-SAR</string>
+</resources>
