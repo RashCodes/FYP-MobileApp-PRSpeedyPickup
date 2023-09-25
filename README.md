@@ -1,4 +1,4 @@
-# -MobileAPP-PR-Speedy-Pickup-FYP
+# FYP-MobileAPP-PRSpeedyPickup
 PURCHASE REPRESENTATIVE - ANDROID APPLICATION  PICKUP & COLLECT VIA AUTOMATED SYSTEM PR-SPEEDY PICKUP
 
 Using Java & Firebase via Android Studio Editor.
